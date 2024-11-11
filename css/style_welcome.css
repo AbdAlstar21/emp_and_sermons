@@ -1,0 +1,150 @@
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #page-top {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #wrapper {
+     display: flex;
+ }
+ 
+ .sidebar {
+     background-color: #4e73df;
+     color: white;
+     width: 250px;
+     height: 100vh;
+     padding: 15px;
+     position: fixed;
+     overflow-y: auto;
+ }
+ 
+ .sidebar .sidebar-brand {
+     font-size: 1.5em;
+     padding: 10px;
+     text-align: center;
+ }
+ 
+ .sidebar .sidebar-divider {
+     border-bottom: 1px solid #e3e6f0;
+     margin: 10px 0;
+ }
+ 
+ .sidebar .nav-item {
+     margin: 10px 0;
+ }
+ 
+ .sidebar .nav-link {
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 10px 15px;
+     text-decoration: none;
+ }
+ 
+ .sidebar .nav-link:hover {
+     background-color: #2e59d9;
+ }
+ 
+ .sidebar .nav-link .fas {
+     margin-right: 10px;
+ }
+ 
+ .sidebar .sidebar-heading {
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 0.85em;
+     color: #d1d3e2;
+     padding: 0 15px;
+ }
+ 
+ #content-wrapper {
+     margin-left: 250px;
+     width: 100%;
+ }
+ 
+ .navbar {
+     background-color: white;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+     padding: 10px 20px;
+ }
+ 
+ .navbar .navbar-nav .nav-item .nav-link {
+     color: #5a5c69;
+ }
+ 
+ .navbar .navbar-nav .nav-item .nav-link:hover {
+     color: #4e73df;
+ }
+ 
+ .navbar .navbar-nav .dropdown-menu {
+     border: none;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+ }
+ 
+ .navbar .navbar-nav .dropdown-menu .dropdown-item {
+     color: #3a3b45;
+ }
+ 
+ .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+     background-color: #f8f9fc;
+ }
+ 
+ .navbar .navbar-nav .dropdown-menu .dropdown-item .fas {
+     margin-right: 10px;
+ }
+ 
+ .container-fluid {
+     padding: 20px;
+ }
+ 
+ .card {
+     border: none;
+     border-left: 4px solid #4e73df;
+     background-color: white;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+     margin-bottom: 20px;
+ }
+ 
+ .card .card-body {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .card .card-body .col {
+     flex-grow: 1;
+ }
+ 
+ .card .card-body .col-auto {
+     color: #d1d3e2;
+ }
+ 
+ footer {
+     background-color: white;
+     padding: 10px;
+     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+ }
+ 
+ footer .container {
+     text-align: center;
+ }
+ 
+ .scroll-to-top {
+     background-color: #4e73df;
+     color: white;
+     padding: 10px;
+     border-radius: 50%;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     display: none;
+ }
+ 
+ .scroll-to-top:hover {
+     background-color: #2e59d9;
+ }
